@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/subject/main",
+    "pages/logs/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "尔雅搜题",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "color": "#707070",
+    "selectedColor": "#515151",
+    "backgroundColor": "#f7f7f7",
+    "list": [
+      {
+        "pagePath":"pages/index/main",
+        "iconPath": "/static/images/seach01.png",
+        "selectedIconPath": "/static/images/seach02.png",
+        "text": "搜题"
+      },
+      {
+        "pagePath":"pages/subject/main",
+        "iconPath": "/static/images/book01.png",
+        "selectedIconPath": "/static/images/book02.png",
+        "text": "查课"
+      }
+    ]
+  }
+}
